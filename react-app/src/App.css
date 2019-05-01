@@ -1,0 +1,97 @@
+
+
+.App{
+  margin: 0;
+  height: 100vh;
+  font-weight: 500
+}
+
+.App-header{
+  height: 100px;
+  background: #34a5da;
+  display: flex;
+  align-items: center;
+}
+
+.App-header > h1{
+  margin-left: 50px;
+  font-size: 25px;
+  color: #221;
+  font-weight: 800;
+}
+
+.App-content {
+  height: calc(100vh - 100px);
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Card{
+  color: 220;
+  height: 375px;
+  width: 700px;
+  background: white;
+}
+
+.card-id{
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+.card-id > h1{
+  margin: 0;
+}
+.card-name{
+  margin: 0px 45px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #3ec0e8;
+}
+.card-name > h1{
+  margin: 0px 0px 25px 0px;
+}
+
+.card-about{
+  margin-left: 45px;
+}
+
+.card-about > p {
+  margin: 9px 0px;
+}
+
+#tab{
+  margin-left: 50px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  width: 700px;
+}
+
+.prevnext > button{
+  color: white;
+  font-size: 25px;
+  background: #222;
+  border: none;
+}
+
+.edn > button{
+  height: 30px;
+  width: 70px;
+  font-weight: 900;
+  font-size: 12px;
+  color: white;
+  background: #34a5da;
+  border: none;
+  border-radius: 12px;
+  margin: 5px;
+}
